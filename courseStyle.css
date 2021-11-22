@@ -1,0 +1,644 @@
+/* FONTS */
+
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@200;300;400;500;600;700;800&display=swap');
+:root {
+    --regular-size: 18px;
+    font-family: 'Assistant', sans-serif;
+}
+
+#main,
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+label {
+    text-align: right;
+    font-family: 'Assistant', sans-serif;
+    color: #142654 !important;
+}
+
+a,
+li,
+span,
+.wrapper-course-material .course-tabs li a,
+.wrapper-course-material .course-tabs li a:visited,
+.rtl .course-index .accordion .course-navigation .button-chapter .group-heading {
+    font-family: 'Assistant', sans-serif;
+}
+
+
+/* P PREFERENCES */
+
+.xmodule_display.xmodule_HtmlModule p {
+    margin-bottom: 1.416em;
+    font-size: 1.1em;
+    line-height: 1.6em !important;
+    color: #3c3c3c;
+}
+
+
+/*text color */
+
+.copy-lead a,
+.copy-large a,
+.copy-base a,
+.alert-copy a,
+.alert-copy-with-title a,
+.copy-meta a,
+.table caption a,
+.table-simplified caption a,
+.copy-micro a,
+.wrapper-footer footer#footer-openedx a,
+a,
+.link,
+.btn-link,
+.table-sortable .sortable .action-sort {
+    color: black;
+}
+
+
+/* course component - backgrounds and borders */
+
+.container>div {
+    border: none;
+}
+
+.course-index {
+    transition: all 0.2s cubic-bezier(0.455, 0.03, 0.515, 0.955) 0s;
+    border-left: none;
+}
+
+
+/* PADDING, MARGIN AND LINES BETWEEN COMPONENTS */
+
+.course-wrapper .course-content .vert-mod .vert>.xblock-student_view,
+.course-wrapper .courseware-results-wrapper .vert-mod .vert>.xblock-student_view {
+    border-bottom: none;
+    margin-bottom: 15px;
+    margin-top: 30px;
+    padding: 0 0 17px;
+}
+
+.content-wrapper .page-header {
+    border-bottom: none;
+}
+
+
+/* SHADOW UNDER VIDEO COMPONENT */
+
+.xmodule_display.xmodule_VideoModule .video {
+    background: #f5f5f5;
+    display: block;
+    margin: 31px -12px 0px;
+    padding: 13px;
+    border-radius: 0px;
+    outline: none;
+    box-shadow: 0px 0px 15px 1px rgb(0 0 0 / 12%);
+    background-color: #F7F7F7;
+}
+
+
+/*  TITLES */
+
+
+/* unit title */
+
+
+/* OLD */
+
+
+/* .h2.hd-2,
+.xblock .xblock h2 {
+    font-size: 2em !important;
+    position: relative;
+    width: fit-content;
+    font-family: 'Assistant', sans-serif;
+  
+    padding: 6px 20px 6px 20px;
+    font-weight: 700;
+    height: 60px;
+    color: #00517d;
+}
+ */
+
+
+/* NEW */
+
+.h2.hd-2,
+.xblock .xblock h2 {
+    font-size: 2em !important;
+    font-family: 'Assistant', sans-serif;
+    padding: 6px 20px 6px 20px;
+    font-weight: 700;
+    color: #142654;
+    background: linear-gradient(90deg, rgba(254, 218, 44, 1) 0%, rgba(252, 192, 46, 1) 100%);
+    height: 80px;
+    padding-top: 15px;
+    border-radius: 20px;
+}
+
+
+/* .h2.hd-2,
+.xblock .xblock h2:before,
+.h2.hd-2,
+.xblock .xblock h2:after,
+.h2.hd-2,
+.xblock .xblock h2>:first-child:before,
+.h2.hd-2,
+.xblock .xblock h2>:first-child:after {
+    position: absolute;
+    content: ' ';
+    width: 20px;
+    height: 20px;
+    border-color: #fcc02eff;
+    border-style: solid;
+}
+
+.h2.hd-2,
+.xblock .xblock h2:before {
+    top: 35px;
+    left: -1px;
+    border-width: 0px 0px 5px 5px;
+}
+
+.h2.hd-2,
+.xblock .xblock h2:after {
+    top: 0px;
+    right: -1px;
+    border-width: 5px 5px 0 0;
+}
+
+.h2.hd-2,
+.xblock .xblock h2>:first-child:before {
+    bottom: 0;
+    right: 0;
+    border-width: 0 1px 1px 0
+}
+
+.h2.hd-2,
+.xblock .xblock h2>:first-child:after {
+    bottom: 0;
+    left: 0;
+    border-width: 0 0 1px 1px
+} */
+
+
+/* VIDEO AND REGULAR TEXT HEADLINE */
+
+.textHeadline,
+.xmodule_display.xmodule_VideoModule h3.hd.hd-2,
+.discussion-module-title {
+    font-size: 1.5em !important;
+    position: relative;
+    width: fit-content;
+    font-family: 'Assistant', sans-serif;
+    padding: 6px 14px;
+    font-weight: 700;
+    background-color: #142654;
+    color: white;
+    margin-top: -47px;
+    border-radius: 10px;
+    display: inline;
+    z-index: 1;
+}
+
+.textHeadline {
+    top: -25px
+}
+
+.textHeadline:before,
+.xmodule_display.xmodule_VideoModule h3.hd.hd-2::before,
+.discussion-module-title:before {
+    border: 2px solid #fcc02eff;
+    border-radius: 7px;
+    position: absolute;
+    content: "";
+    width: 101%;
+    height: 100%;
+    top: -3px;
+    left: 1px;
+    transform: rotate(2.5deg);
+    z-index: 0;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 0px 15px 1px;
+}
+
+
+/* PROBLEMS HEADLINES */
+
+
+/* OLD */
+
+
+/* .hd.hd-3 {
+    font-size: 1.5em !important;
+    position: relative;
+    width: fit-content;
+    font-family: 'Assistant', sans-serif;
+
+    padding: 6px 14px;
+    font-weight: 700;
+    background-color: #00517d;
+    color: white;
+ 
+    margin-top: -47px;
+} */
+
+
+/* NEW */
+
+.hd.hd-3 {
+    font-size: 1.5em !important;
+    position: relative;
+    width: fit-content;
+    font-family: 'Assistant', sans-serif;
+    padding: 6px 14px;
+    font-weight: 700;
+    background-color: #142654;
+    color: white;
+    margin-top: -47px;
+    border-radius: 10px;
+}
+
+
+/* .hd.hd-3:before {
+    position: absolute;
+    content: "";
+    width: 101%;
+    height: 100%;
+    top: 0px;
+    left: 3px;
+    -webkit-transform: rotate( 10deg);
+    -moz-transform: rotate(10deg);
+    -o-transform: rotate(10deg);
+    -ms-transform: rotate(10deg);
+    transform: rotate( 4deg);
+    z-index: -1;
+    background-color: #fcc02eff;
+    box-shadow: 0px 0px 15px 1px rgb(0 0 0 / 12%);
+} */
+
+.hd.hd-3:before {
+    position: absolute;
+    content: "";
+    width: 101%;
+    height: 100%;
+    top: -2px;
+    left: 0px;
+    transform: rotate( 2.5deg);
+    z-index: 0;
+    box-shadow: 0px 0px 15px 1px rgb(0 0 0 / 12%);
+    border: 2px solid #fcc02eff;
+    border-radius: 7px;
+}
+
+
+/* cancel the little shadow on the left */
+
+body.view-in-course .course-wrapper,
+body.view-in-course .profile-wrapper,
+body.view-in-course .instructor-dashboard-wrapper-2,
+body.view-in-course .wiki-wrapper,
+body.view-in-course .teams-wrapper,
+body.view-in-course .static_tab_wrapper {
+    box-shadow: none;
+}
+
+
+/* HTML TEXT DIV */
+
+.textDiv {}
+
+
+/* CENTER EVERY IMG INSIDE textDiv */
+
+.textDiv img {
+    display: block;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+.textDiv img.imgRight {
+    display: block;
+    margin-left: auto !important;
+}
+
+.textDiv img.imgLeft {
+    display: block;
+    margin-right: auto !important;
+}
+
+
+/* big blue rectangle */
+
+
+/* נסיון כושל לשים ריבוע כחול מסביב לכל העמוד */
+
+
+/* main#main:before {
+    position: absolute;
+    content: "";
+    display: block;
+    width: 69%;
+    height: 90%;
+    top: 258px;
+    left: 29px;
+    background-color: #00517d;
+    
+    -webkit-transform: rotate( 10deg);
+    -moz-transform: rotate(10deg);
+    -o-transform: rotate(10deg);
+    -ms-transform: rotate(10deg);
+    transform: rotate( 1.9deg);
+    z-index: 0;
+} */
+
+
+/* cancel background transparency */
+
+
+/* .xblock.xblock-student_view.xblock-student_view-sequential.xmodule_display.xmodule_SequenceModule.xblock-initialized {
+    position: relative;
+    background-color: transparent;
+} */
+
+
+/* white background to all content */
+
+
+/* .vert-mod {
+    background-color: white;
+} */
+
+
+/* .course-wrapper .course-content .vert-mod,
+.course-wrapper .courseware-results-wrapper .vert-mod {
+    padding: 0px;
+    margin: none !important;
+    line-height: 1.4;
+    list-style: none;
+    box-shadow: 0px -3px 9px -1px rgb(0 0 0 / 5%);
+    width: 94%;
+    padding: 0px 25px 0px 25px;
+} */
+
+
+/* cancel the line above the content */
+
+.course-wrapper .course-content .vert-mod .vert>.xblock-student_view,
+.course-wrapper .courseware-results-wrapper .vert-mod .vert>.xblock-student_view {
+    border-bottom: none;
+    margin-bottom: 15px;
+    padding: 0 0 15px;
+}
+
+.problems-wrapper {
+    box-shadow: 0px 0px 15px 1px rgb(0 0 0 / 12%);
+    background-color: #F7F7F7;
+    padding: 3%;
+    position: relative;
+    z-index: 1;
+    margin: 0px -12px 0px;
+    height: fit-content;
+    display: flow-root;
+}
+
+.problems-wrapper:before {
+    position: absolute;
+    /* content: ""; */
+    /* display: block; */
+    width: 99%;
+    height: 100%;
+    top: 0px;
+    left: 3px;
+    /* box-shadow: -50px 120px 4px 10px #555; */
+    -webkit-transform: rotate( 10deg);
+    -moz-transform: rotate(10deg);
+    -o-transform: rotate(10deg);
+    -ms-transform: rotate(10deg);
+    transform: rotate( 1.9deg);
+    z-index: -1;
+    background-color: #F7F7F7;
+}
+
+
+/* problem lables design */
+
+.xmodule_display.xmodule_CapaModule div.problem .choicegroup label {
+    padding: 10px;
+    padding-right: 38px;
+    position: relative;
+    font-size: 1em;
+    line-height: normal;
+    cursor: pointer;
+    background-color: white;
+    width: 80%;
+}
+
+.vert-mod .vert.vert-1:nth-child(odd) .xblock.xblock-student_view.xblock-student_view-problem.xmodule_display.xmodule_CapaModule.xblock-initialized .problems-wrapper:before {
+    position: absolute;
+    content: "";
+    /* display: block; */
+    width: 99%;
+    height: 100%;
+    top: 0px;
+    left: 3px;
+    /* box-shadow: -50px 120px 4px 10px #555; */
+    -webkit-transform: rotate( 10deg);
+    -moz-transform: rotate(10deg);
+    -o-transform: rotate(10deg);
+    -ms-transform: rotate(10deg);
+    transform: rotate( 1.9deg);
+    z-index: -1;
+    background-color: #F7F7F7;
+}
+
+.problem-group-label {
+    background-color: transparent !important;
+    border: none !important;
+}
+
+
+/* problems color in studio */
+
+.wrapper-xblock .xblock-render .xblock .xblock-render .xblock .hd-3 {
+    margin-bottom: 10px;
+    font-size: 1.35em;
+    font-weight: 400;
+    line-height: 1.4em;
+    color: white;
+}
+
+
+/* LABELS DESIGN */
+
+.xmodule_display.xmodule_CapaModule div.problem .choicegroup label:hover,
+.xmodule_display.xmodule_CapaModule div.problem .choicetextgroup label:hover,
+.xmodule_display.xmodule_ConditionalModule div.problem .xmodule_display.xmodule_CapaModule .choicegroup label:hover,
+.xmodule_display.xmodule_ConditionalModule div.problem .xmodule_display.xmodule_CapaModule .choicetextgroup label:hover {
+    border: 2px solid #fcc02e;
+}
+
+.xmodule_display.xmodule_CapaModule div.problem .choicegroup label {
+    border-radius: 9px;
+}
+
+.xmodule_display.xmodule_CapaModule div.problem .choicegroup label,
+.xmodule_display.xmodule_CapaModule div.problem .choicetextgroup label,
+.xmodule_display.xmodule_ConditionalModule div.problem .xmodule_display.xmodule_CapaModule .choicegroup label,
+.xmodule_display.xmodule_ConditionalModule div.problem .xmodule_display.xmodule_CapaModule .choicetextgroup label {
+    border: 2px solid #142654;
+}
+
+
+/* DISCUSSION TOPIC */
+
+.discussion-module .inline-discussion-topic {
+    width: 100%;
+    font-size: 12px;
+    margin-top: 30px;
+}
+
+
+/* COLORS */
+
+
+/* RIGHT MENU */
+
+.fa-caret-down:before {
+    content: "\f0d7";
+    color: #fcc02eff;
+    font-size: 1.4em;
+    line-height: 0.8em;
+}
+
+.fa-caret-right:before {
+    content: "\f0d9";
+    color: #fcc02eff;
+    font-size: 1.4em;
+    line-height: 0.8em;
+}
+
+
+/* TOP MENU */
+
+.xmodule_display.xmodule_SequenceModule .sequence-nav-button.focused,
+.xmodule_display.xmodule_SequenceModule .sequence-nav-button:hover,
+.xmodule_display.xmodule_SequenceModule .sequence-nav-button:active,
+.xmodule_display.xmodule_SequenceModule .sequence-nav-button.active,
+.xmodule_display.xmodule_SequenceModule .sequence-nav button.focused,
+.xmodule_display.xmodule_SequenceModule .sequence-nav button:hover,
+.xmodule_display.xmodule_SequenceModule .sequence-nav button:active,
+.xmodule_display.xmodule_SequenceModule .sequence-nav button.active {
+    border-bottom: 3px solid #fcc02e;
+    padding-top: 2px;
+    background-color: #fcc02e63;
+}
+
+
+/* PROBLEMS BUTTON */
+
+.btn-brand,
+.modal .inner-wrapper form .submit input[type="submit"],
+.leanModal_box .inner-wrapper form .submit input[type="submit"] {
+    border-color: #fcc02e;
+    background: #fcc02e;
+    color: #00517d;
+}
+
+
+/* DROP DOWN INPUT */
+
+select {
+    text-transform: none;
+    border-radius: 5px;
+}
+
+
+/* RIGHT MENU */
+
+.course-index .accordion .course-navigation .chapter-content-container .chapter-menu .menu-item a {
+    position: relative;
+    display: block;
+    padding: 18px 10px 1px 10px;
+    border-radius: 5px;
+    font-family: "Open Sans", Verdana, Geneva, sans-serif, sans-serif;
+    color: #3c3c3c;
+}
+
+.btn-link,
+.proctored_exam_status .exam-timer .exam-button-turn-in-exam,
+.course-index .accordion .course-navigation .chapter-content-container .chapter-menu .menu-item a {
+    font-size: 1em;
+    line-height: 0em;
+}
+
+.course-index .accordion .course-navigation .button-chapter {
+    box-shadow: none !important;
+    background-color: white !important;
+}
+
+.scrollIndicator {
+    position: fixed !important;
+    top: 0;
+    right: 0;
+    z-index: 100 !important;
+    width: 100%;
+    background-color: gainsboro;
+}
+
+.progress-barscrollIndicator {
+    height: 10px;
+    background: #fcc02e;
+    width: 0%;
+}
+
+
+/*NEXT BUTTON ANIMATION*/
+
+.sequence-nav-button.button-next {
+    animation-name: pulse;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    -webkit-animation-delay: 3s;
+    -webkit-animation: pulse 4s infinite;
+    -moz-animation: pulse 3s infinite;
+    -o-animation: pulse 3s infinite;
+    animation: pulse 3s infinite;
+    background-color: #fcc02e !important;
+}
+
+
+/* Safari 4.0 - 8.0 */
+
+@-webkit-keyframes pulse {
+    20% {
+        transform: scale(1);
+        opacity: 1;
+    }
+    40% {
+        box-shadow: 0 0 0 0 rgba(252, 194, 46, 0.863);
+    }
+    70% {
+        box-shadow: 0 0 0 8px #e7ea2400;
+    }
+}
+
+
+/* Standard syntax */
+
+@keyframes pulse {
+    20% {
+        transform: scale(1);
+        opacity: 1;
+    }
+    30% {
+        box-shadow: 0 0 0 0 rgba(252, 194, 46, 0.849);
+    }
+    70% {
+        box-shadow: 0 0 0 8px #eae72400;
+    }
+}
