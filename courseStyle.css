@@ -154,7 +154,7 @@ a,
     content: ' ';
     width: 20px;
     height: 20px;
-    border-color: #fcc02eff;
+    border-color: #03D499;
     border-style: solid;
 }
 
@@ -213,7 +213,7 @@ a,
 /* .textHeadline:before,
 .xmodule_display.xmodule_VideoModule h3.hd.hd-2::before,
 .discussion-module-title:before {
-    border: 2px solid #fcc02eff;
+    border: 2px solid #03D499;
     border-radius: 7px;
     position: absolute;
     content: "";
@@ -279,7 +279,7 @@ a,
     -ms-transform: rotate(10deg);
     transform: rotate( 4deg);
     z-index: -1;
-    background-color: #fcc02eff;
+    background-color: #03D499;
     box-shadow: 0px 0px 15px 1px rgb(0 0 0 / 12%);
 } */
 
@@ -294,7 +294,7 @@ a,
     transform: rotate( 2.5deg);
     z-index: 0;
     box-shadow: 0px 0px 15px 1px rgb(0 0 0 / 12%);
-    border: 2px solid #fcc02eff;
+    border: 2px solid #03D499;
     border-radius: 7px;
 } */
 
@@ -399,14 +399,18 @@ body.view-in-course .static_tab_wrapper {
 }
 
 .problems-wrapper {
-    box-shadow: 0px 0px 15px 1px rgb(0 0 0 / 12%);
-    background-color: #F7F7F7;
+    box-shadow: 0px 0px 10px 1px rgb(0 0 0 / 12%);
+    /* background-color: #F7F7F7; */
     padding: 3%;
     position: relative;
     z-index: 1;
     margin: 0px -12px 0px;
     height: fit-content;
     display: flow-root;
+    border: 2px solid #0EFBB8;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 74px;
+    border-top-left-radius: 107px;
 }
 
 .problems-wrapper:before {
@@ -482,7 +486,7 @@ body.view-in-course .static_tab_wrapper {
 .xmodule_display.xmodule_CapaModule div.problem .choicetextgroup label:hover,
 .xmodule_display.xmodule_ConditionalModule div.problem .xmodule_display.xmodule_CapaModule .choicegroup label:hover,
 .xmodule_display.xmodule_ConditionalModule div.problem .xmodule_display.xmodule_CapaModule .choicetextgroup label:hover {
-    border: 2px solid #fcc02e;
+    border: 2px solid #03D499;
 }
 
 .xmodule_display.xmodule_CapaModule div.problem .choicegroup label {
@@ -513,14 +517,14 @@ body.view-in-course .static_tab_wrapper {
 
 .fa-caret-down:before {
     content: "\f0d7";
-    color: #fcc02eff;
+    color: #03D499;
     font-size: 1.4em;
     line-height: 0.8em;
 }
 
 .fa-caret-right:before {
     content: "\f0d9";
-    color: #fcc02eff;
+    color: #03D499;
     font-size: 1.4em;
     line-height: 0.8em;
 }
@@ -536,9 +540,9 @@ body.view-in-course .static_tab_wrapper {
 .xmodule_display.xmodule_SequenceModule .sequence-nav button:hover,
 .xmodule_display.xmodule_SequenceModule .sequence-nav button:active,
 .xmodule_display.xmodule_SequenceModule .sequence-nav button.active {
-    border-bottom: 3px solid #fcc02e;
+    border-bottom: 3px solid #03D499;
     padding-top: 2px;
-    background-color: #fcc02e63;
+    background-color: #03D49963;
 }
 
 
@@ -547,9 +551,9 @@ body.view-in-course .static_tab_wrapper {
 .btn-brand,
 .modal .inner-wrapper form .submit input[type="submit"],
 .leanModal_box .inner-wrapper form .submit input[type="submit"] {
-    border-color: #fcc02e;
-    background: #fcc02e;
-    color: #00517d;
+    border-color: #018181;
+    background: #018181;
+    color: white;
 }
 
 
@@ -595,8 +599,23 @@ select {
 
 .progress-barscrollIndicator {
     height: 10px;
-    background: #fcc02e;
+    background: #03D499;
     width: 0%;
+}
+
+
+/* BEFORE AND NEXT BUTTON */
+
+.xmodule_display.xmodule_SequenceModule .sequence-nav-button.button-previous {
+    right: 0;
+    border-top-right-radius: 20px !important;
+    border-bottom-right-radius: 20px !important;
+}
+
+.xmodule_display.xmodule_SequenceModule .sequence-nav-button.button-next {
+    left: 0;
+    border-top-left-radius: 20px !important;
+    border-bottom-left-radius: 20px !important;
 }
 
 
@@ -611,7 +630,7 @@ select {
     -moz-animation: pulse 3s infinite;
     -o-animation: pulse 3s infinite;
     animation: pulse 3s infinite;
-    background-color: #fcc02e !important;
+    background-color: #03D499 !important;
 }
 
 
@@ -623,7 +642,7 @@ select {
         opacity: 1;
     }
     40% {
-        box-shadow: 0 0 0 0 rgba(252, 194, 46, 0.863);
+        box-shadow: 0 0 0 0 rgb(32, 223, 149);
     }
     70% {
         box-shadow: 0 0 0 8px #e7ea2400;
@@ -639,9 +658,9 @@ select {
         opacity: 1;
     }
     30% {
-        box-shadow: 0 0 0 0 rgba(252, 194, 46, 0.849);
+        box-shadow: 0 0 0 0 rgb(32, 223, 149);
     }
     70% {
-        box-shadow: 0 0 0 8px #eae72400;
+        box-shadow: 0 0 0 8px #e7ea2400;
     }
 }
