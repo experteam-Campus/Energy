@@ -258,7 +258,9 @@ a,
     padding: 6px 14px;
     font-weight: 700;
     color: white !important;
-    margin-top: -47px;
+    margin-top: -54px;
+    margin-bottom: 24px;
+    margin-right: -46px;
     border-bottom-right-radius: 25px;
     border-top-left-radius: 25px;
     background: linear-gradient( 52deg, rgba(1, 129, 129, 1) 22%, rgba(3, 51, 59, 1) 65%);
@@ -399,7 +401,6 @@ body.view-in-course .static_tab_wrapper {
 
 .problems-wrapper {
     box-shadow: 0px 0px 10px 1px rgb(0 0 0 / 12%);
-    /* background-color: #F7F7F7; */
     padding: 3%;
     position: relative;
     z-index: 1;
@@ -410,6 +411,7 @@ body.view-in-course .static_tab_wrapper {
     border-bottom-left-radius: 0px;
     border-bottom-right-radius: 74px;
     border-top-left-radius: 107px;
+    margin-bottom: 39px;
 }
 
 .problems-wrapper:before {
