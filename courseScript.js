@@ -7,7 +7,7 @@ $(document).ready(function() {
         if ($(this).prop("checked")) {
             console.log("line 17 - checked")
 
-            $("label").css({
+            $(".choicegroup label").css({
                 "background-color": "white",
                 "color": "black",
                 "border": "2px solid #142654"
@@ -20,7 +20,7 @@ $(document).ready(function() {
                 "color": "black",
             })
 
-            $("label").hover(function() {
+            $(".choicegroup label").hover(function() {
                 $(this).css({ "border": "2px solid #0EFBB8" });
             }, function() {
                 $(this).css({ "border": "2px solid #142654" });
@@ -42,7 +42,7 @@ $(document).ready(function() {
 
             })
 
-            $("label").hover(function() {
+            $(".choicegroup label").hover(function() {
                 $(this).css({ "border": "2px solid #0EFBB8" });
             }, function() {
                 $(this).css({ "border": "2px solid #142654" });
@@ -56,7 +56,7 @@ $(document).ready(function() {
                 "border": "2px solid #142654"
             })
 
-            $("label").hover(function() {
+            $(".choicegroup label").hover(function() {
                 $(this).css({ "border": "2px solid #0EFBB8" });
             }, function() {
                 $(this).css({ "border": "2px solid #142654" });
