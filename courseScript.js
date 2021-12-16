@@ -10,20 +10,20 @@ $(document).ready(function() {
             $("label").css({
                 "background-color": "white",
                 "color": "black",
-                "border": "2px solid #00517D"
+                "border": "2px solid #142654"
             })
 
 
             $(this).parent().css({
-                "background-color": "#24DCEA",
-                "border": "2px solid #00517D",
+                "background-color": "#0EFBB8",
+                "border": "2px solid #142654",
                 "color": "black",
             })
 
             $("label").hover(function() {
-                $(this).css({ "border": "2px solid #24DCEA" });
+                $(this).css({ "border": "2px solid #0EFBB8" });
             }, function() {
-                $(this).css({ "border": "2px solid #00517D" });
+                $(this).css({ "border": "2px solid #142654" });
             });
 
 
@@ -36,16 +36,16 @@ $(document).ready(function() {
         if ($(this).prop("checked")) {
 
             $(this).parent().css({
-                "background-color": "#24DCEA",
-                "border": "2px solid #00517D",
+                "background-color": "#0EFBB8",
+                "border": "2px solid #142654",
                 "color": "black",
 
             })
 
             $("label").hover(function() {
-                $(this).css({ "border": "2px solid #24DCEA" });
+                $(this).css({ "border": "2px solid #0EFBB8" });
             }, function() {
-                $(this).css({ "border": "2px solid #00517D" });
+                $(this).css({ "border": "2px solid #142654" });
             });
 
 
@@ -53,13 +53,13 @@ $(document).ready(function() {
             $(this).parent().css({
                 "background-color": "white",
                 "color": "black",
-                "border": "2px solid #00517D"
+                "border": "2px solid #142654"
             })
 
             $("label").hover(function() {
-                $(this).css({ "border": "2px solid #24DCEA" });
+                $(this).css({ "border": "2px solid #0EFBB8" });
             }, function() {
-                $(this).css({ "border": "2px solid #00517D" });
+                $(this).css({ "border": "2px solid #142654" });
             });
         }
     });
@@ -111,8 +111,8 @@ console.log("helllo");
 /*     if ($('.choicegroup.capa_inputtype .field-input[type="radio"]').prop("checked")) {
            console.log("radio checked")
            $(this).parent().css({
-               "background-color": "#24DCEA",
-               "border": "2px solid #00517D",
+               "background-color": "#0EFBB8",
+               "border": "2px solid #142654",
                "color": "black",
            })
        }
@@ -122,8 +122,8 @@ console.log("helllo");
 
            console.log("checkbox checked")
            $(this).parent().css({
-               "background-color": "#24DCEA",
-               "border": "2px solid #00517D",
+               "background-color": "#0EFBB8",
+               "border": "2px solid #142654",
                "color": "black",
 
            })
