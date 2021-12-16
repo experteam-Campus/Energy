@@ -153,8 +153,8 @@ a,
     background-size: 51px;
     background-repeat: no-repeat;
     position: relative;
-    right: 426px;
-    top: 36px;
+    right: 107%;
+    top: 27px;
 }
 
 
@@ -523,17 +523,21 @@ body.view-in-course .static_tab_wrapper {
 
 /* DISCUSSION TOPIC */
 
-.discussion-module .inline-discussion-topic {
-    width: 100%;
-    font-size: 12px;
-    margin-top: 30px;
-}
+
+/* DISCUSSION TOPIC */
 
 .discussion-module .inline-discussion-topic {
     width: 100%;
     font-size: 12px;
     margin-top: 30px;
     margin-right: -26px;
+}
+
+.discussion-module .discussion-module-header {
+    float: right;
+    width: 57.62712%;
+    margin-bottom: 15px;
+    margin-right: 46px;
 }
 
 .discussion-module .discussion {
