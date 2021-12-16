@@ -18,7 +18,7 @@ p,
 label {
     text-align: right;
     font-family: 'Assistant', sans-serif;
-    color: #142654 !important;
+    color: #03333B !important;
 }
 
 a,
@@ -70,6 +70,7 @@ a,
 .course-index {
     transition: all 0.2s cubic-bezier(0.455, 0.03, 0.515, 0.955) 0s;
     border-left: none;
+    /* margin-left: 27px !important; */
 }
 
 
@@ -134,10 +135,10 @@ a,
     font-family: 'Assistant', sans-serif;
     padding: 6px 20px 6px 20px;
     font-weight: 700;
-    color: #03333B;
+    color: #018181!important;
     height: 80px;
     padding-top: 15px;
-    border-radius: 20px;
+    /* border-radius: 20px; */
 }
 
 
@@ -412,6 +413,7 @@ body.view-in-course .static_tab_wrapper {
     border-bottom-right-radius: 74px;
     border-top-left-radius: 107px;
     margin-bottom: 39px;
+    margin-right: 33px;
 }
 
 .problems-wrapper:before {
@@ -498,7 +500,7 @@ body.view-in-course .static_tab_wrapper {
 .xmodule_display.xmodule_CapaModule div.problem .choicetextgroup label,
 .xmodule_display.xmodule_ConditionalModule div.problem .xmodule_display.xmodule_CapaModule .choicegroup label,
 .xmodule_display.xmodule_ConditionalModule div.problem .xmodule_display.xmodule_CapaModule .choicetextgroup label {
-    border: 2px solid #142654;
+    border: 2px solid #03333B;
 }
 
 
