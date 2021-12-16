@@ -133,12 +133,23 @@ a,
 .xblock .xblock h2 {
     font-size: 2em !important;
     font-family: 'Assistant', sans-serif;
-    padding: 6px 20px 6px 20px;
     font-weight: 700;
     color: #018181!important;
-    height: 80px;
-    padding-top: 15px;
-    /* border-radius: 20px; */
+    height: 65px;
+    padding-top: 4px;
+    border-bottom: 4px solid #0EFBB8;
+    padding-right: 17px;
+    border-bottom-right-radius: 33px;
+    margin-right: 7px;
+    width: 70%;
+}
+
+.h2.hd-2,
+.xblock .xblock h2:before {
+    content: ' ';
+    width: 20px;
+    height: 20px;
+    background-image: url("https://courses.campus.gov.il/asset-v1:Labor+GOV_ESCI_Energy_Efficiency_Renewable_Energy_HE+2021_1+type@asset+block@powergreen.svg");
 }
 
 
@@ -251,6 +262,7 @@ a,
 
 /* NEW */
 
+.poll-header,
 .hd.hd-3 {
     font-size: 1.5em !important;
     position: relative;
@@ -413,7 +425,7 @@ body.view-in-course .static_tab_wrapper {
     border-bottom-right-radius: 74px;
     border-top-left-radius: 107px;
     margin-bottom: 39px;
-    margin-right: 33px;
+    margin-right: 18px;
 }
 
 .problems-wrapper:before {
@@ -512,6 +524,33 @@ body.view-in-course .static_tab_wrapper {
     margin-top: 30px;
 }
 
+.discussion-module .inline-discussion-topic {
+    width: 100%;
+    font-size: 12px;
+    margin-top: 30px;
+    margin-right: -26px;
+}
+
+.discussion-module .discussion {
+    clear: both;
+    padding-right: 2%;
+}
+
+
+/* POLL */
+
+.poll-block-form-wrapper {
+    display: none;
+    margin-right: 46px;
+}
+
+
+/* WORD CLOUD */
+
+.input_cloud_section {
+    margin-right: 13px;
+}
+
 
 /* COLORS */
 
@@ -576,7 +615,7 @@ select {
     padding: 18px 10px 1px 10px;
     border-radius: 5px;
     font-family: "Open Sans", Verdana, Geneva, sans-serif, sans-serif;
-    color: #3c3c3c;
+    color: #03333B;
 }
 
 .btn-link,
