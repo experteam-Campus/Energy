@@ -147,9 +147,15 @@ a,
 .h2.hd-2,
 .xblock .xblock h2:before {
     content: ' ';
-    width: 20px;
-    height: 20px;
-    background-image: url("https://courses.campus.gov.il/asset-v1:Labor+GOV_ESCI_Energy_Efficiency_Renewable_Energy_HE+2021_1+type@asset+block@powergreen.svg");
+    width: 54px;
+    height: 24px;
+    display: inline-block;
+    background-image: url(https://courses.campus.gov.il/asset-v1:Labor+GOV_ESCI_Energy_Efficiency_Renewable_Energy_HE+2021_1+type@asset+block@powergreen.svg);
+    background-size: 51px;
+    background-repeat: no-repeat;
+    position: relative;
+    right: 426px;
+    top: 36px;
 }
 
 
@@ -189,6 +195,13 @@ a,
     right: 0;
     border-width: 0 1px 1px 0
 }
+
+.h2.hd-2,
+.xblock .xblock h2>:first-child:after {
+    bottom: 0;
+    left: 0;
+    border-width: 0 0 1px 1px
+} */
 
 
 /* VIDEO AND REGULAR TEXT HEADLINE */
