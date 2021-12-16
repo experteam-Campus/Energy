@@ -135,13 +135,12 @@ a,
     font-family: 'Assistant', sans-serif;
     font-weight: 700;
     color: #018181!important;
-    height: 65px;
+    height: 55px;
     padding-top: 4px;
+    padding-left: 30px;
     border-bottom: 4px solid #0EFBB8;
-    padding-right: 17px;
-    border-bottom-right-radius: 33px;
     margin-right: 7px;
-    width: 70%;
+    width: 55%;
 }
 
 .h2.hd-2,
