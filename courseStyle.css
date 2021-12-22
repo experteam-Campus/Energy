@@ -222,7 +222,7 @@ a,
 }
 
 .textHeadline {
-    top: -25px
+    display: block;
 }
 
 
