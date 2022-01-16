@@ -634,7 +634,7 @@ select {
 .course-index .accordion .course-navigation .chapter-content-container .chapter-menu .menu-item a {
     position: relative;
     display: block;
-    padding: 18px 10px 1px 10px;
+    padding: 20px 17px 20px 39px;
     border-radius: 5px;
     font-family: "Open Sans", Verdana, Geneva, sans-serif, sans-serif;
     color: #03333B;
@@ -727,4 +727,60 @@ select {
     70% {
         box-shadow: 0 0 0 8px #e7ea2400;
     }
+}
+
+
+/* FEEDBACK */
+
+
+/* CORRECT ANSWER */
+
+.trueAns {
+    border: 2px solid #49DA4D;
+    border-radius: 12px;
+    background-color: #62de6657;
+    width: 77%;
+    padding: 20px;
+    margin-right: 30px;
+    margin-top: 17px;
+}
+
+.trueAnsImg {
+    width: 13%;
+    position: relative;
+    float: right;
+    bottom: 52px;
+    margin-right: -61px;
+    margin-left: 20px;
+}
+
+
+/* INCORRECT ANSWER */
+
+.falseAns {
+    border: 2px solid #FF3F3E;
+    background-color: #EAF9FC;
+    width: 77%;
+    padding: 20px;
+    margin-right: 30px;
+    margin-top: 17px;
+}
+
+.falseAnsImg {
+    width: 13%;
+    position: relative;
+    float: right;
+    bottom: 52px;
+    margin-right: -61px;
+    margin-left: 20px;
+}
+
+.trueAns ol li,
+.falseAns ol li {
+    margin-right: 25px;
+}
+
+.trueAns p,
+.falseAns p {
+    margin-right: 30px;
 }
