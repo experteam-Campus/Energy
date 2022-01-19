@@ -674,12 +674,14 @@ select {
     right: 0;
     border-top-right-radius: 20px !important;
     border-bottom-right-radius: 20px !important;
+    border: 1px solid;
 }
 
 .xmodule_display.xmodule_SequenceModule .sequence-nav-button.button-next {
     left: 0;
     border-top-left-radius: 20px !important;
     border-bottom-left-radius: 20px !important;
+    border: 1px solid;
 }
 
 
