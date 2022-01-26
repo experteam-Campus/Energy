@@ -953,3 +953,18 @@ select {
     margin-top: 0pt;
     margin-bottom: 0pt;
 }
+
+
+/* TABELS */
+
+.xmodule_display.xmodule_HtmlModule table {
+    direction: rtl !important;
+}
+
+.xmodule_display.xmodule_HtmlModule table {
+    width: 50%;
+    border-collapse: collapse;
+    font-size: 16px;
+    text-align: center;
+    margin: 0 auto !important;
+}
