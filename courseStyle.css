@@ -864,9 +864,9 @@ select {
 /* CORRECT ANSWER */
 
 .trueAns {
-    border: 2px solid #49DA4D;
+    border: 2px solid #03343c;
     border-radius: 12px;
-    background-color: #62de6657;
+    background-color: #0efbb833;
     width: 77%;
     padding: 20px;
     margin-right: 30px;
@@ -919,14 +919,13 @@ select {
 .accordionDiv1 {
     text-align: justify;
     padding: 7px;
-    margin: 5px auto;
     font-family: assistant;
-    line-height: 20px;
     transition: 0.6s ease-in-out;
     background: linear-gradient(71deg, rgba(14, 251, 184, 1) 62%, rgba(8, 193, 158, 1) 100%);
     box-shadow: rgb(0 0 0 / 10%) 0px 4px 7px;
     border-top-left-radius: 40px;
     border-bottom-right-radius: 40px;
+    margin: 30px 100px;
 }
 
 .accordionDiv2 {
@@ -959,6 +958,7 @@ select {
 
 .xmodule_display.xmodule_HtmlModule table {
     direction: rtl !important;
+    vertical-align: middle;
 }
 
 .xmodule_display.xmodule_HtmlModule table {
