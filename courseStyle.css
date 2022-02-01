@@ -925,7 +925,7 @@ select {
     box-shadow: rgb(0 0 0 / 10%) 0px 4px 7px;
     border-top-left-radius: 40px;
     border-bottom-right-radius: 40px;
-    margin: 30px 100px;
+    margin: 0px 100px 30px 100px;
 }
 
 .accordionDiv2 {
@@ -962,10 +962,22 @@ select {
 }
 
 .xmodule_display.xmodule_HtmlModule table {
-    width: 50%;
+    width: 80%;
     border-collapse: collapse;
     font-size: 16px;
     text-align: center;
     margin: 0 auto !important;
     table-layout: fixed;
+}
+
+.xmodule_display.xmodule_CapaModule div.problem table tr {
+    vertical-align: middle;
+    border: 1px solid lightgrey;
+}
+
+.xmodule_display.xmodule_CapaModule div.problem table caption,
+.xmodule_display.xmodule_CapaModule div.problem table th,
+.xmodule_display.xmodule_CapaModule div.problem table td {
+    padding: 0.55em 0.75em;
+    text-align: center;
 }
