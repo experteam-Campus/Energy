@@ -997,6 +997,13 @@ select {
     overflow-wrap: break-word;
 }
 
+.xmodule_display.xmodule_CapaModule div.problem table td {
+    padding: 0.55em 0.75em;
+    text-align: center;
+    border: 1px solid #c8c8c8;
+    width: 23%;
+}
+
 
 /* SUBTITLES DIRECTION */
 
