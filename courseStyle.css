@@ -30,6 +30,12 @@ span,
     font-family: 'Assistant', sans-serif;
 }
 
+.course-wrapper .course-content ul li,
+.course-wrapper .courseware-results-wrapper ul li {
+    margin-bottom: 0.70788em;
+    font-size: 1.1em;
+}
+
 
 /* P PREFERENCES */
 
@@ -154,7 +160,7 @@ a,
     background-repeat: no-repeat;
     position: absolute;
     right: 66%;
-    top: 194px;
+    top: 191px;
 }
 
 
