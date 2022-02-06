@@ -981,3 +981,15 @@ select {
     padding: 0.55em 0.75em;
     text-align: center;
 }
+
+
+/* SUBTITLES DIRECTION */
+
+.xmodule_display.xmodule_VideoModule .video .video-wrapper .closed-captions.is-visible {
+    direction: ltr;
+}
+
+.xmodule_display.xmodule_VideoModule .video .subtitles .subtitles-menu li span {
+    display: block;
+    direction: ltr;
+}
