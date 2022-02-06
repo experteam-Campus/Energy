@@ -983,6 +983,21 @@ select {
 }
 
 
+/* TABLE IN PROBLEMS */
+
+.xmodule_display.xmodule_CapaModule div.problem table th {
+    border: 1px solid #c8c8c8;
+    width: 23%;
+}
+
+.xmodule_display.xmodule_CapaModule div.problem table {
+    margin: 1.41575em 0;
+    border-collapse: collapse;
+    table-layout: auto;
+    overflow-wrap: break-word;
+}
+
+
 /* SUBTITLES DIRECTION */
 
 .xmodule_display.xmodule_VideoModule .video .video-wrapper .closed-captions.is-visible {
