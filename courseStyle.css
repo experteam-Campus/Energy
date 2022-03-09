@@ -174,7 +174,7 @@ a,
     background-size: 51px;
     background-repeat: no-repeat;
     position: absolute;
-    top: 207px;
+    /*    top: 207px; */
     background-color: white;
     transform: rotateY(180deg);
     margin-right: -40px;
@@ -1114,6 +1114,14 @@ select {
 }
 
 body .xmodule_display.xmodule_SequenceModule .sequence-nav button.active {
+    border-color: #018181;
+}
+
+
+/* TOP NAV BORDER */
+
+.xmodule_display.xmodule_SequenceModule .sequence-nav ol li,
+.xmodule_display.xmodule_SequenceModule .sequence-nav ol li button {
     border-color: #018181;
 }
 
