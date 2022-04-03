@@ -18,7 +18,7 @@ p,
 label {
     text-align: right;
     font-family: 'Assistant', sans-serif;
-    color: #03333B !important;
+    /* color: #03333B !important; */
 }
 
 a,
@@ -36,6 +36,12 @@ span,
     font-size: 1.1em;
 }
 
+/* LINE BETWEEN COMPONENTS - KOA UPDATE */
+.course-wrapper .course-content .vert-mod .vert, .course-wrapper .courseware-results-wrapper .vert-mod .vert {
+    border-bottom: none;
+    margin-bottom: 0px;
+    padding: 0 0;
+}
 
 /* P PREFERENCES */
 
@@ -64,6 +70,7 @@ a,
 .btn-link,
 .table-sortable .sortable .action-sort {
     color: black;
+    color: #03333B !important;
 }
 
 
@@ -898,6 +905,7 @@ select {
     padding: 20px;
     margin-right: 30px;
     margin-top: 17px;
+    margin-bottom: 20px;
 }
 
 .trueAnsImg {
@@ -919,6 +927,8 @@ select {
     padding: 20px;
     margin-right: 30px;
     margin-top: 17px;
+    margin-bottom: 20px;
+    border-radius: 12px;
 }
 
 .falseAnsImg {
@@ -940,6 +950,11 @@ select {
     margin-right: 30px;
 }
 
+.xmodule_display.xmodule_ProblemBlock div.problem .indicator-container .status.incorrect .status-icon::after {
+    color: #b20610;
+    font-size: 1.2em;
+    content: "";
+}
 
 /* ACCORDION */
 
@@ -980,6 +995,11 @@ select {
     margin-bottom: 0pt;
 }
 
+/* accordion arrow */
+::marker {
+    color: #08C29E;
+    font-size: x-large;
+}
 
 /* TABELS */
 
