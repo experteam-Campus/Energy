@@ -236,7 +236,7 @@ a,
 /* VIDEO AND REGULAR TEXT HEADLINE */
 
 .textHeadline,
-.xmodule_display.xmodule_VideoModule h3.hd.hd-2,
+h3.hd.hd-2,
 .discussion-module-title {
     font-size: 1.5em !important;
     position: relative;
