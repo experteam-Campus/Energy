@@ -956,6 +956,31 @@ select {
     content: "";
 }
 
+
+/* TABLES IN FEEDBACKS */
+.falseAns table, .trueAns table {
+    border-collapse: collapse !important;
+    table-layout: auto;
+    overflow-wrap: break-word;
+    border: 1px solid #c8c8c8;
+    display: inline-table;
+    margin: 0px !important;
+}
+
+.falseAns table th, .trueAns table th {
+    border: 1px solid #c8c8c8;
+    background-color: white;
+    padding: 5px 10px !important;
+    text-align: center !important;
+    width: 25%;
+}
+
+.xmodule_display.xmodule_ProblemBlock div.problem table td {
+    text-align: right;
+    border: 1px solid #c8c8c8;
+    padding: 5px 10px !important;
+}
+
 /* ACCORDION */
 
 .accordionDiv1 {
